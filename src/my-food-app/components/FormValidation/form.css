@@ -1,0 +1,228 @@
+
+@media only screen and (max-width: 600px) {
+    .box{
+        width: 300px !important;
+        height: 550px !important;
+        gap: 5px !important;
+    } 
+    .login-form{
+        height: 100vh !important;
+        background-color: rgb(120, 162, 162);
+    }
+    .box1{
+        width: 300px !important;
+        height: 750px !important;
+        gap: 5px !important;
+        padding: 10px !important;
+    } 
+    .login{
+        height: 100vh !important;
+        background-color: rgb(120, 162, 162);
+    }
+   
+   
+}
+@media only screen and (max-width: 768px) {
+   
+    .login-form{
+        height: 100vh !important;
+        background-color: rgb(120, 162, 162);
+    }
+    .login{
+        height: 100vh !important;
+        background-color: rgb(120, 162, 162);
+    }
+}
+    @media only screen and (max-width: 2040px) {
+        .login-form{
+            height: 100vh !important;
+            background-color: rgb(120, 162, 162);
+        }
+        .login{
+            height: 100vh !important;
+            background-color: rgb(120, 162, 162);
+        }
+}
+
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 600px;
+    gap: 30px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 10px;
+} 
+
+#color{
+    padding: 40px;
+    width:100%;
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+.RED{
+    color: red;
+}
+#head{
+    color: red;
+}
+.form{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.form1{
+
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+}
+.other{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.log-in{
+    width:200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white ;
+    background-color: aqua;
+}
+.input{
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    /* border: none; */
+    border: rgba(0,0,0,0.9);
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 670px;
+    gap: 5px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 20px;
+} 
+ #main{
+   
+   
+    background-position: center;
+    background: content-box;
+    /* filter:blur(1px); */
+    
+} 
+#center{
+    /* background-image: url("main-background.png"); */
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    filter: blur(6px);
+    background-position: center;
+
+}
+.frame{
+    justify-content: center;
+    height: 300px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-weight: 2000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    padding: 20px;
+    text-align: center;
+}
+.frame h1{
+    font-size: 60px;
+}
+.frame p{
+    font-size: 20px;
+}
+#btn{
+    width: 150px;
+    padding: 15px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    background-color: aquamarine;
+
+}
+
+#btn:hover{
+    
+    background-color: lightsalmon;
+    border: 1px white;
+    transition:all 0.4s;
+}
+
+  .login-form{
+    /* width: 100vw;
+    height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+   
+  }
+  .login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+   
+  }
+  .video{
+    object-fit: cover;
+    box-sizing: border-box;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+  }
+  @media  only screen and (max-width:576px) {
+   .frame{
+    
+    height: 500px;
+    width: 300px;
+    
+    gap: 10px;
+   
+   }
+
+.frame h1{
+    font-size: 40px;
+}
+.frame p{
+    font-size: 15px;
+    width: 200px;
+}
+#btn{
+    width: 120px;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    background-color: aquamarine;
+
+}
+  }

@@ -1,0 +1,232 @@
+@media only screen and (max-width: 576px) {
+    
+    #shipping{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: space-evenly !important;
+        align-items: center !important;
+        width: 100%;
+        height: 300px !important;
+        gap:1px !important;
+        background-color: #f5f5f5;
+    }
+    #index{
+        height: 800px !important;
+    }
+    #on {
+        position: unset;
+        bottom: 400px !important;
+        width: 50vw !important;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        padding: 50px;
+        color: white;
+        padding-left: 100px;
+    }
+    #on h1{
+        font-weight: 2000px;
+        font-size: 40px !important;
+    }
+    #on p{
+        font-size: 15px !important;
+        text-align: justify;
+    }
+
+  
+}
+@media only screen and (max-width: 768px) {
+    
+    #shipping{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: space-evenly !important;
+        align-items: center !important;
+        width: 100%;
+        height: 400px !important;
+        background-color: #f5f5f5;
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:5px !important;
+    }
+    .icon i{
+        display: block;
+        font-size: 18px !important;
+        margin-right: 15px;
+        color: #F28123;
+        width: 65px;
+        height: 65px;
+        text-align: center;
+        line-height: 60px;
+        border: 2px #F28123 dotted;
+        border-radius: 999px;
+    }
+    .icon div p{
+      
+        opacity: 0.75;
+    }
+    .icon div h2{
+      
+        font-size: 20px ;
+    }
+    #on h1{
+        font-weight: 2000px;
+        font-size: 50px !important;
+    }
+    #on p{
+        font-size: 20px !important;
+        text-align: justify;
+    }
+    
+
+}
+
+.LeftArrow{
+    width: 50px;
+    font-size: 70px;
+    font-weight: 900;
+    opacity: 0.8;
+    color: rgb(120, 162, 162);
+    position: absolute;
+    bottom: 0;
+    top: 450px;
+    left: 30px;
+    cursor: pointer;
+    transition: all 0.4s;
+
+}
+.RightArrow{
+    width: 50px;
+    font-size: 70px;
+    font-weight: 900;
+    opacity: 0.8;
+    color: rgb(120, 162, 162);
+    position: absolute;
+    bottom: 0;
+    top: 450px;
+    right: 30px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+#index{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    bottom: 0px;
+    opacity: 0.8;
+    border-radius: 10px;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+#index::after{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #051922;
+        content: "";
+        z-index: -1;
+        opacity: 0.8;
+}
+#index::after::before{
+    box-sizing: border-box;
+}
+
+
+.dot{
+    font-size: 80px;
+    width: 10px;
+    height: 100px;
+    cursor: pointer;
+
+}
+#dotParent{
+   
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+    z-index: 1;
+    bottom: 30px;
+    position: absolute;
+    color: white;
+}
+#on{
+    position: absolute;
+    bottom: 400px;
+    width: 40vw;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 50px;
+    color: white;
+    padding-left: 100px;
+    
+}
+#on h1{
+    font-weight: 2000px;
+    font-size: 60px;
+}
+#on p{
+    font-size: 25px;
+    text-align: justify;
+}
+.btn5{
+    width: 150px;
+    padding: 10px;
+    background-color: gold;
+    border-radius: 10px;
+    border:none;
+    text-decoration: none;
+    color:white;
+}
+.btn5:hover{
+    background-color: none;
+}
+.btn-box{
+    width: 200px;
+}
+
+
+#shipping{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+
+    background-color: #f5f5f5;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.icon i{
+    display: block;
+    font-size: 24px;
+    margin-right: 15px;
+    color: #F28123;
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    line-height: 60px;
+    border: 2px #F28123 dotted;
+    border-radius: 999px;
+}
+.icon div p{
+    /* margin-bottom: 0px; */
+    opacity: 0.75;
+}
+
