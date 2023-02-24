@@ -8,11 +8,12 @@ import Footer from "./my-food-app/components/footer/Footer";
 import Customer from "./my-food-app/components/customer/Customer";
 
 const Slides = [
-  { url: "http://localhost:3000/background-1.jpg", title: "burger" },
+  // { url: "http://localhost:3000/background-1.jpg", title: "burger" },
+  { url: "http://localhost:3000/bg_food.jpg", title: "briyani" },
   { url: "http://localhost:3000/background-2.jpg", title: "pizza" },
   { url: "http://localhost:3000/background-3.jpg", title: "tandhoori" },
   { url: "http://localhost:3000/background-4.jpg", title: "veg" },
-  { url: "http://localhost:3000/bg_food.jpg", title: "briyani" },
+  
 ];
 
 

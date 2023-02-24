@@ -21,21 +21,21 @@ const Customer = () => {
           ></img>
         </div>
         <div className="para1">
-          <h1 data-aos="fade-up">We Are Food App</h1>
+          <h1 data-aos="fade-up" className="says1" >We Are Food App</h1>
           <p data-aos="slide-left" className="para">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
             humour, or randomised words which don't look even slightly
             believable. 
           </p>
-          <button data-aos="fade-up" className="read-btn">Raed more</button>
+          <button data-aos="fade-up" className="read-btn">Read more</button>
         </div>
       </div>
       <div id="customer1">
-      <h2 data-aos="fade-up" >Whats Says our customers</h2>
+      <h2 data-aos="fade-up" className="says">Whats Says our customers</h2>
         <div id="customerReview">
-         <div data-aos="slide-right" className="review1">
-          <div data-aos="slide-right" className="review">
+         <div data-aos="fade-up" className="review1">
+          <div data-aos="fade-up" className="review">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -48,12 +48,12 @@ const Customer = () => {
           </div>
           </div>
         
-        <div data-aos="slide-left" className="review1">
-          <div data-aos="slide-left" className="review">
+        <div data-aos="fade-up" className="review1">
+          <div data-aos="fade-up" className="review">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-              <h2> Moana Michell</h2>
+              <h2> Moana Michell</h2> 
             </p>
             
           </div>

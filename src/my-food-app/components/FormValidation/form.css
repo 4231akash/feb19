@@ -7,7 +7,7 @@
     } 
     .login-form{
         height: 100vh !important;
-        background-color: rgb(120, 162, 162);
+        background-color: rgb(229, 255, 255);
     }
     .box1{
         width: 300px !important;
@@ -17,7 +17,7 @@
     } 
     .login{
         height: 100vh !important;
-        background-color: rgb(120, 162, 162);
+        background-color: rgb(229, 255, 255);
     }
    
    
@@ -26,21 +26,21 @@
    
     .login-form{
         height: 100vh !important;
-        background-color: rgb(120, 162, 162);
+        background-color: rgb(229, 255, 255);
     }
     .login{
         height: 100vh !important;
-        background-color: rgb(120, 162, 162);
+        background-color: rgb(229, 255, 255);
     }
 }
     @media only screen and (max-width: 2040px) {
         .login-form{
             height: 100vh !important;
-            background-color: rgb(120, 162, 162);
+            background-color: rgb(229, 255, 255);
         }
         .login{
             height: 100vh !important;
-            background-color: rgb(120, 162, 162);
+            background-color: rgb(229, 255, 255);
         }
 }
 
@@ -53,9 +53,10 @@
     width: 400px;
     height: 600px;
     gap: 30px;
-    background-color: whitesmoke;
-    border-radius: 20px;
+    background-color: white;
+    border-radius: 40px;
     padding: 10px;
+    box-shadow: 5px 10px 25px grey;
 } 
 
 #color{
@@ -105,7 +106,7 @@
     width: 200px;
     border-radius: 5px;
     /* border: none; */
-    border: rgba(0,0,0,0.9);
+    border: 2px solid rgba(0,0,0,0.2);
 }
 .box1{
     display: flex;
@@ -115,9 +116,10 @@
     width: 400px;
     height: 670px;
     gap: 5px;
-    background-color: whitesmoke;
-    border-radius: 20px;
+    background-color: white;
+    border-radius: 40px;
     padding: 20px;
+    box-shadow: 5px 10px 25px grey;
 } 
  #main{
    

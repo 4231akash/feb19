@@ -1,76 +1,100 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import NavBar from "../navBar/NavBar";
-import { selectCount, selectCount1 } from "./ReducerCart";
-import { useSelector } from "react-redux";
+
+// import { details } from "./ReducerCart";
+// import { useSelector } from "react-redux";
+import Category from "../Dashboard/Category";
 import "./cart.css";
+import { useDispatch } from "react-redux";
+import { addCart } from "./ReducerCart";
+import { useLocation, useHistory } from "react-router-dom";
+
 // import Suggestion from "./Suggestion";
 // import Suggestion from "./Suggestion";
 
 const Description = () => {
-  const select = useSelector(selectCount);
-  const select2 = useSelector(selectCount1);
+  const [data, setData] = useState({});
+ const history=useHistory();
 
-  for (let i = 0; i < select.length; i++) {
-    const product = select[i].key;
-    var productCart = select2.filter((ele) => {
+ 
+ const dispatch = useDispatch();
+ const { search } = useLocation();
+ const query = new URLSearchParams(search);
+  useEffect(() => {
+    // query.get("name")
+    
+    const Categories = Category.find((item) => item.id == query.get("id"));
+    setData(Categories);
+    // if(Categories){
+    //   
+    // }
+
+  }, []);
+  function click(id) {
+    history.push(`/description?id=${id}`);
+    
+    return window. location. reload(true);
+  }
+
+ 
+ function order(){
+  return alert("your order successfully")
+ }
+  
+  
+    const product = data.key;
+    var productCart = Category.filter((ele) => {
       return ele.key === product;
     });
-  }
+  
+
 
   return (
     <div>
       <div>
-        <NavBar />s
+        <NavBar />
       </div>
       <div id="mapping">
         <div id="map">
-          {select.map((ele) => {
-            return (
-              <div key={ele.id} className="desc">
-                <div className="split">
-                <div>
-                  <img src={ele.url} className="img" alt="hi"></img>
+          <div key={data.id} className="desc">
+            <div className="split">
+              <div>
+                <img src={data.url} className="img" alt="hi"></img>
+              </div>
+              <div className="description1">
+                <h2>Description: "{data.name}"</h2>
+                <p>{data.description}</p>
+                <h4>ratings {data.rating} </h4>
+                <div className="btn">
+                  <button type="button" onClick={()=>dispatch(addCart(data))}>Add cart</button>
+                  <button type="button" onClick={()=>order()}>order</button>
                 </div>
-                <div className="description1">
-                  <h2>Description: "{ele.name}"</h2>
-                  <p>{ele.description}</p>
-                  <h4>ratings {ele.rating} </h4>
-                  <div className="btn">
-                    <button>Add cart</button>
-                    <button>order</button>
-                  </div>
-                </div>
-                </div>
-                <h2>Suggestion</h2>
-                <div id="sug">
-                  {productCart.map((ele) => {
+              </div>
+            </div>
+            <h2>Suggestion</h2>
+            <div id="sug">
+              {productCart.map((ele) => {
                     return (
               
                       <div key={ele.id}>
-                        <div className="main">
-                          <div className="main_2">
-                            <img className="inner" src={ele.url} alt="abj" />
+                        <div className="main6">
+                          <div onClick={() => click(ele.id)} className="main_2">
+                            <img  className="inner" src={ele.url} alt="abj" />
                           </div>
-                          <div className="main_2">
-                            <h6>{ele.name}</h6>
-                            <pre className="description">
-                              {" "}
-                              {ele.description}
-                            </pre>
-                            <h2>{ele.price}</h2>
+                          <div className="main_5">
+                            <h2>{ele.name}</h2>
+                            <h2>  ₹ {ele.price}</h2>
                             <div className="end">
-                              <h4>{ele.rating} ratings</h4>
-                              <button className="cart">Add cart</button>
+                              <h3>{ele.rating} ratings</h3>
+                              <button className="cart" onClick={()=>dispatch(addCart(ele))}><i class="ri-shopping-cart-2-fill"></i></button>
                             </div>
                           </div>
                         </div>
                       </div>
                     );
                   })}
-                </div>
-              </div>
-            );
-          })}
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -76,32 +76,49 @@
    height: 300px;
    
 }
+.main6{
+    background-color: rgb(120, 162, 162);
+    border-radius: 30px;
+}
+.main_5{
+    width: 250px;
+   height: 180px;
+}
+.main_5 h2{
+    padding-left: 10px;
+}
 .end{
     display: flex;
     justify-content: space-between;
     padding: 5px;
+    align-items: center;
 }
 
 .cart{
-    width: 70px;
+    width: 50px;
     color: #f1f1f1;
-    background-color: rgb(120, 162, 162);
+    border: none;
+    background-color: gold;
+    border-radius: 40px;
+    height: 50px;
 }
 
-#map{
+/* #map{
     width: 750px;
     height: 100%;
     display: flex;
+
     flex-direction: column;
     justify-content: center;
     
     gap: 30px;
     align-items: center;
-    /* background-color: white; */
-}
+    
+} */
 #mapping{
-    width: 1400px;
+    /* width: 1400px; */
     height: 100%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -123,16 +140,18 @@
     background-color: #222831;
     padding: 20px;
     border-radius: 20px;
+    margin-top: 40px;
     color: white;
 
 
 }
 #sug{
-    /* width: 1000px; */
-    height: 350px;
+   
+   
     width: 750px;
     display: flex;
-    overflow: scroll;
+    overflow-y: hidden;
+    overflow-x: scroll;
     text-decoration: none;
     gap: 10px;
 }
@@ -142,6 +161,10 @@
     align-items: center;
     gap:20px;
     
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
 }
 .btn button{
    
@@ -231,4 +254,50 @@
     background-color: rgb(120, 162, 162);
     border: none;
     margin: 0 auto;
+}
+.divide p{
+    font-size: 20px;
+    font-weight: 1000;
+}
+
+@media only screen and (max-width: 900px) {
+    .desc{
+    
+        width: 450px !important;
+        height: 100%;
+        display: flex !important;
+        /* flex-direction: column; */
+        justify-content: center;
+        background-color: white;
+        align-items: center;
+        gap: 20px;
+        background-color: #222831;
+        padding: 20px;
+        border-radius: 20px;
+        margin-top: 40px;
+        color: white;
+        margin: 0 auto !important;
+    
+    
+    }
+    .split{
+        display: flex !important;
+        flex-direction: column !important;
+
+    }
+    #sug{
+        /* overflow:  hidden !important; */
+        width: 250px !important;
+    }
+    .total{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .cart11{
+        width: 400px !important;
+    }
+    .quantity{
+        width: 200px !important;
+    }
+  
 }

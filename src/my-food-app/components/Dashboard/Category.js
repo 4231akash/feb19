@@ -7,7 +7,7 @@
           name: "fish-biriyani",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "₹140",
+          price: "140",
           rating: "4.3 / 5",
           url: "http://localhost:3000/images/non-veg-1.jpg",
         },
@@ -18,7 +18,7 @@
           name: "nalli",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "₹120",
+          price: "120",
           rating: "4.4 / 5",
           url: "http://localhost:3000/images/non-veg-2.jpg",
         },
@@ -29,7 +29,7 @@
           name: "chicken-curry",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "₹80",
+          price: "80",
           rating: "4.2 / 5",
           url: "http://localhost:3000/images/non-veg-3.jpg",
         },
@@ -40,7 +40,7 @@
           name: "gril-chicken",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "₹160",
+          price: "160",
           rating: "4.3 / 5",
           url: "http://localhost:3000/images/non-veg-4.jpg",
         },
@@ -51,7 +51,7 @@
           name: "chicken-rice",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "₹120",
+          price: "120",
           rating: "4.1 / 5",
           url: "http://localhost:3000/images/non-veg-5.jpg",
         },
@@ -62,7 +62,7 @@
           name: "half-chicken biriyani",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "₹220",
+          price: "220",
           rating: "4.8 / 5",
           url: "http://localhost:3000/images/non-veg-6.jpg",
         },
@@ -73,7 +73,7 @@
           name: "chicken-bakoda",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "₹100",
+          price: "100",
           rating: "4.6 / 5",
           url: "http://localhost:3000/images/non-veg-7.jpg",
         },
@@ -84,7 +84,7 @@
           name: "Aambur-biriyani",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "₹160",
+          price: "160",
           rating: "4.8 / 5",
           url: "http://localhost:3000/images/non-veg-8.jpg",
         },
@@ -95,7 +95,7 @@
           name: "Dindukal-biriyani",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "₹140",
+          price: "140",
           rating: "4.7 / 5",
           url: "http://localhost:3000/images/non-veg-9.jpg",
         },
@@ -106,7 +106,7 @@
           name: "gril-chicken",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "₹100",
+          price: "100",
           rating: "4.6 / 5",
           url: "http://localhost:3000/images/non-veg-10.jpg",
         },
@@ -117,7 +117,7 @@
           name: "noodles",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "$70",
+          price: "70",
           rating: "4.7 / 5",
           url: "http://localhost:3000/images/chinese-1.jpg",
         },
@@ -128,7 +128,7 @@
           name: "crunch-noodle",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "$160",
+          price: "160",
           rating: "4.5 / 5",
           url: "http://localhost:3000/images/chinese-2.jpg",
         },
@@ -139,7 +139,7 @@
           name: "spicy chicken",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price:"$240",
+          price:"240",
           rating: "4.5 / 5",
           url: "http://localhost:3000/images/chinese-3.jpg",
         },
@@ -150,7 +150,7 @@
           name: "special noodles",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "$110",
+          price: "110",
           rating: "4.6 / 5",
           url: "http://localhost:3000/images/chinese-4.jpg",
         },
@@ -161,7 +161,7 @@
           name: "hot noodles",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "$130",
+          price: "130",
           rating: "4.8 / 5",
           url: "http://localhost:3000/images/chinese-5.jpg",
         },
@@ -172,7 +172,7 @@
           name: "chinese chicken",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "$190",
+          price: "190",
           rating: "4.3 / 5",
           url: "http://localhost:3000/images/chinese-6.jpg",
         },
@@ -183,7 +183,7 @@
           name: "crisp rice bowl",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "$180",
+          price: "180",
           rating: "4.5 / 5",
           url: "http://localhost:3000/images/chinese-7.jpg",
         },
@@ -194,7 +194,7 @@
           name: "rice bowl",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "$190",
+          price: "190",
           rating: "4.7 / 5",
           url: "http://localhost:3000/images/chinese-8.jpg",
         },
@@ -205,7 +205,7 @@
           name: "chinese chicken gravy",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "$310",
+          price: "310",
           rating: "4.9 / 5",
           url: "http://localhost:3000/images/chinese-9.jpg",
         },
@@ -216,7 +216,7 @@
           name: "veg-biriyani",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "$120",
+          price: "120",
           rating: "4.3 / 5",
           url: "http://localhost:3000/images/chinese-10.jpg",
         },
@@ -227,7 +227,7 @@
           name: "western-biriyani",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "$320",
+          price: "320",
           rating: "4.9 / 5",
           url: "http://localhost:3000/images/western-1.jpg",
         },
@@ -238,7 +238,7 @@
           name: "western pack",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "$499",
+          price: "499",
           rating: "4.6 / 5",
           url: "http://localhost:3000/images/western-2.jpg",
         },
@@ -249,7 +249,7 @@
           name: "half beef",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "$420",
+          price: "420",
           rating: "4.7 / 5",
           url: "http://localhost:3000/images/western-3.jpg",
         },
@@ -260,7 +260,7 @@
           name: "burger",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "$120",
+          price: "120",
           rating: "4.5 / 5",
           url: "http://localhost:3000/images/western-4.jpg",
         },
@@ -271,7 +271,7 @@
           name: "noodles with chicken",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "$180",
+          price: "180",
           rating: "4.4 / 5",
           url: "http://localhost:3000/images/western-5.jpg",
         },
@@ -282,7 +282,7 @@
           name: "comman pack",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "$190",
+          price: "190",
           rating: "4.3 / 5",
           url: "http://localhost:3000/images/western-6.jpg",
         },
@@ -293,7 +293,7 @@
           name: "bread & egg",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "$70",
+          price: "70",
           rating: "4.6 / 5",
           url: "http://localhost:3000/images/western-7.jpg",
         },
@@ -304,7 +304,7 @@
           name: "seshwan noodles",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "$190",
+          price: "190",
           rating: "4.7 / 5",
           url: "http://localhost:3000/images/western-8.jpg",
         },
@@ -315,7 +315,7 @@
           name: "western-biriyani(s)",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "$120",
+          price: "120",
           rating: "4.3 / 5",
           url: "http://localhost:3000/images/western-9.jpg",
         },
@@ -326,7 +326,7 @@
           name: "slice beef",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "$320",
+          price: "320",
           rating: "4.6 / 5",
           url: "http://localhost:3000/images/western-10.jpg",
         },
@@ -336,7 +336,7 @@
           name: "veg-biriyani",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "₹70",
+          price: "70",
           rating: "4.3 / 5",
           url: "http://localhost:3000/images/veg.jpg",
         },
@@ -347,7 +347,7 @@
           name: "meals-pack",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "₹120",
+          price: "120",
           rating: "4.1 / 5",
           url: "http://localhost:3000/images/veg-1.jpg",
         },
@@ -358,7 +358,7 @@
           name: "full-meals",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "₹150",
+          price: "150",
           rating: "4.4 / 5",
           url: "http://localhost:3000/images/veg-2.jpg",
         },
@@ -369,7 +369,7 @@
           name: "rountine-meals",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "₹90",
+          price: "90",
           rating: "4.3 / 5",
           url: "http://localhost:3000/images/veg-3.jpg",
         },
@@ -380,7 +380,7 @@
           name: "rice with sappati",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "₹80",
+          price: "80",
           rating: "4.0 / 5",
           url: "http://localhost:3000/images/veg-4.jpg",
         },
@@ -391,7 +391,7 @@
           name: "Dosai",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "₹60",
+          price: "60",
           rating: "4.4 / 5",
           url: "http://localhost:3000/images/veg-5.jpg",
         },
@@ -402,7 +402,7 @@
           name: "veg-biriyani(special)",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "₹160",
+          price: "160",
           rating: "5 / 5",
           url: "http://localhost:3000/images/veg-6.jpg",
         },
@@ -413,7 +413,7 @@
           name: "small-meals",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "₹110",
+          price: "110",
           rating: "4.2 / 5",
           url: "http://localhost:3000/images/veg-7.jpg",
         },
@@ -424,7 +424,7 @@
           name: "sampar",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "₹50",
+          price: "50",
           rating: "4.4 / 5",
           url: "http://localhost:3000/images/veg-8.jpg",
         },
@@ -435,7 +435,7 @@
           name: "family-pack",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, dolor at convallis sagittis, metus odio efficitur tellus, ut vehicula lacus metus ac ipsum. Mauris tincidunt, est mattis interdum commodo, sapien ipsum iaculis tortor, in pretium sem turpis vel ipsum. In hac habitasse platea dictumst",
-          price: "₹90",
+          price: "90",
           rating: "4.2 / 5",
           url: "http://localhost:3000/images/veg-9.jpg",
         },

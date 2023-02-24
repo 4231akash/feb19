@@ -21,15 +21,17 @@ const Background = ({ Slides }) => {
     const firstIndex = currentIndex - 1;
     setcurrentIndex(firstIndex);
 
-    if (currentIndex === 0) {
-      setcurrentIndex(Slides.length);
-      console.log(Slides.length);
+    if(currentIndex <= 0){
+      setcurrentIndex(0)
     }
   }
 
   function next() {
     const lastIndex = currentIndex + 1;
     setcurrentIndex(lastIndex);
+    if(lastIndex === 4){
+       return setcurrentIndex(lastIndex -1)
+    }
   }
 
   function goToSlide(index) {
