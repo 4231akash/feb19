@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import "./navBar.css";
 import { useHistory } from "react-router-dom";
 import NavBar from "./NavBar";
-
+import SideBar from "./SideBar";
+import BackDrop from "./BackDrop";
+import Footer from "../footer/Footer";
 const Profile = () => {
   let [data, setData] = useState("");
   let [data1, setData1] = useState("");
@@ -51,11 +53,16 @@ const Profile = () => {
   function save() {
     return alert("your profile is updated");
   }
-
+  const [sidebar, setsidebar] = useState(false);
+  const toggleBar = () => {
+    setsidebar((prev) => !prev);
+  };
   return (
     <div>
-      <div>
-        <NavBar/>
+        <div>
+        <NavBar className="nav" OpenSideBar={toggleBar} />
+        <SideBar Sidebar={sidebar} />
+        <BackDrop Sidebar={sidebar} CloseToggle={toggleBar}/>
       </div>
     <div id="view">
      
@@ -110,6 +117,7 @@ const Profile = () => {
         </div>
       </div>
     </div>
+  
     </div>
   );
 };

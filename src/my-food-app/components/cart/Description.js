@@ -3,11 +3,14 @@ import NavBar from "../navBar/NavBar";
 
 // import { details } from "./ReducerCart";
 // import { useSelector } from "react-redux";
+import SideBar from "../navBar/SideBar";
+import BackDrop from "../navBar/BackDrop";
 import Category from "../Dashboard/Category";
 import "./cart.css";
 import { useDispatch } from "react-redux";
 import { addCart } from "./ReducerCart";
 import { useLocation, useHistory } from "react-router-dom";
+import Footer from "../footer/Footer";
 
 // import Suggestion from "./Suggestion";
 // import Suggestion from "./Suggestion";
@@ -25,15 +28,11 @@ const Description = () => {
     
     const Categories = Category.find((item) => item.id == query.get("id"));
     setData(Categories);
-    // if(Categories){
-    //   
-    // }
 
-  }, []);
+  }, [query]);
   function click(id) {
     history.push(`/description?id=${id}`);
-    
-    return window. location. reload(true);
+    // return window. location. reload(true);
   }
 
  
@@ -46,13 +45,20 @@ const Description = () => {
     var productCart = Category.filter((ele) => {
       return ele.key === product;
     });
+
+    const [sidebar, setsidebar] = useState(false);
+    const toggleBar = () => {
+      setsidebar((prev) => !prev);
+    };
   
 
 
   return (
     <div>
-      <div>
-        <NavBar />
+       <div>
+        <NavBar className="nav" OpenSideBar={toggleBar} />
+        <SideBar Sidebar={sidebar} />
+        <BackDrop Sidebar={sidebar} CloseToggle={toggleBar}/>
       </div>
       <div id="mapping">
         <div id="map">
@@ -97,6 +103,7 @@ const Description = () => {
           </div>
         </div>
       </div>
+   
     </div>
   );
 };

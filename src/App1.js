@@ -14,14 +14,7 @@ import Protected from "./Protected";
 import Search from "./my-food-app/components/navBar/Search";
 
 const App1 = () => {
-//   const [isSignIn, setSignIn] = useState(null);
 
-//   const signin = () => {
-//     setSignIn(true);
-//   };
-//   const signout = () => {
-//     setSignIn(false);
-//   };
   return (
     <div id="color1">
       <BrowserRouter>

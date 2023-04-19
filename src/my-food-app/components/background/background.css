@@ -15,15 +15,6 @@
     }
     #on {
         display: none !important;
-        /* position: unset;
-        bottom: 400px !important;
-        width: 50vw !important;
-        height: 300px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        color: white; */
-     
     }
     #on h1{
         font-weight: 2000px;

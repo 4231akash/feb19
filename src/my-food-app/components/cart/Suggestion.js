@@ -1,14 +1,26 @@
-import React from 'react';
+import React,{useState} from 'react';
 import "./cart.css";
+import NavBar from '../navBar/NavBar';
+import BackDrop from '../navBar/BackDrop';
+import SideBar from '../navBar/SideBar';
 
 
 const Suggestion = (store) => {
     
+  const [sidebar, setsidebar] = useState(false);
+  const toggleBar = () => {
+    setsidebar((prev) => !prev);
+  };
    
     return (
 
     
       <div >
+         <div>
+        <NavBar className="nav" OpenSideBar={toggleBar} />
+        <SideBar Sidebar={sidebar} />
+        <BackDrop Sidebar={sidebar} CloseToggle={toggleBar}/>
+      </div>
 
         <div  key={store.key} className="main">
           <div className="main_2">

@@ -57,7 +57,7 @@ const Background = ({ Slides }) => {
             ducimus libero ipsam.
           </p>
           <div class="btn-box">
-            <a data-aos="fade-up" href="/cart" class="btn5">
+            <a data-aos="fade-up" href="#dashboard" class="btn5">
               shop Now
             </a>
           </div>

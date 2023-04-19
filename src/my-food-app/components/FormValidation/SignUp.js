@@ -65,31 +65,31 @@ const SignUp = () => {
             className="input"
             placeholder="first name"
           ></input>
-          <p>{errors.firstName?.message}</p>
+          <p className="message">{errors.firstName?.message}</p>
           <input
             {...register("lastName")}
             className="input"
             placeholder="last name"
           ></input>
-          <p>{errors.lastName?.message}</p>
+          <p className="message">{errors.lastName?.message}</p>
           <input
             {...register("Email")}
             className="input"
             placeholder="Email"
           ></input>
-          <p>{errors.Email?.message}</p>
+          <p className="message">{errors.Email?.message}</p>
           <input
             {...register("createPassword")}
             className="input"
             placeholder="create password"
           ></input>
-          <p>{errors.createPassword?.message}</p>
+          <p className="message">{errors.createPassword?.message}</p>
           <input
             {...register("confirmPassword")}
             className="input"
             placeholder="confirm password"
           ></input>
-          <p>{errors.confirmPassword?.message}</p>
+          <p className="message">{errors.confirmPassword?.message}</p>
           <button
             type="submit"
             id="submit"

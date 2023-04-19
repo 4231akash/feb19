@@ -28,8 +28,16 @@ const DashBoard = () => {
   const history = useHistory();
 
   function search() {
+    
     const inputValue = input;
-    const searching = data.filter((item) => item.name === inputValue);
+    const searching = data.filter((item) =>{
+    if(inputValue === " "){
+      return item
+    } ;
+    if(item.name.toLowerCase().includes(inputValue.toLowerCase())){
+      return item
+    }
+    });
     setData(searching);
   }
 
@@ -61,48 +69,40 @@ const DashBoard = () => {
       <div id="offer1">
         <div data-aos="slide-right" id="offer2">
           <img
-            src={"http://localhost:3000/images/non-veg-5.jpg"}
+            src={Category[6].url}
             alt="hi"
           ></img>
           <div className="second">
-            <p>Chicken-rice</p>
+            <p>chicken-bakoda</p>
             <p>
               <h1>20%</h1>off
             </p>
-            <button className="order1">order now</button>
+            <a className="order1" href="./cart">shop now</a>
           </div>
         </div>
         <div data-aos="slide-left" id="offer3">
           <img
-            src={"http://localhost:3000/images/western-9.jpg"}
+               src={Category[12].url}
             alt="hi"
           ></img>
           <div className="second">
-            <p>western-biriyani</p>
+            <p>spicy chicken</p>
             <p>
               <h1>15%</h1>off
             </p>
-            <button className="order1">order now</button>
+            <a className="order1" href="./cart">shop now</a>
           </div>
         </div>
       </div>
 
       <div id="filter-btn">
         <h2 data-aos="fade-up">Our Menu</h2>
-        <div id="search-btn">
-          <input
-            value={input}
-            id="search"
-            placeholder="search food..."
-            onChange={(e) => setInput(e.target.value)}
-          ></input>
-          <label onClick={search}>
-            <i className="ri-search-line"></i>
-          </label>
-        </div>
+        <div id="section">
+        
         <div className={`food`}>
           <button
             data-aos="slide-right"
+            id="all"
             className="menu active"
             onClick={() => dish2("1")}
           >
@@ -136,6 +136,18 @@ const DashBoard = () => {
           >
             western
           </button>
+        </div>
+        <div id="search-btn">
+          <input
+            value={input}
+            id="search"
+            placeholder="search food..."
+            onChange={(e) => setInput(e.target.value)}
+          ></input>
+          <label onClick={()=>search()} className="searching">
+            <i className="ri-search-line"></i>
+          </label>
+        </div>
         </div>
       </div>
       <div className="indian">

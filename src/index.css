@@ -19,15 +19,4 @@ code {
     monospace;
 }
 
-.sidebar--open {
-  display: block;
 
-}
-
-.backdrop--open {
-  display: block;
-}
-.side{
-  text-decoration: none;
-  color:white;
-}
